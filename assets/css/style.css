@@ -1,42 +1,47 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: url("concrete-texture.png");
+    background-image: url("../images/concrete-texture.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: scroll;    
+    background-size: cover;
     
 }
 
 header{
     background-color: #ffffff;
+    
     border-style: solid;
     border-bottom: solid;
     border-color: #cccccc;
-    height: 75px;
+    height: 68px;
     margin-bottom: 3%;
     
-}   
-
-h1 {
-        background-color: #4aaaa5;
-        color: white;
-        padding: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-        float: left; 
-        text-anchor: middle;
-        
-    }  
-
-li {
-        display: inline;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #777777;
-        width: 10%;
-        padding: 20px;
-        float: right;
-    }
+}
+h1{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 16px;
+    width: 228px;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 310px;
     
+
+}
+
+li{
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+width: 10%;
+padding: 20px;
+float:right;
+
+}
+
+
 br {
 
 }
@@ -59,7 +64,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 27px;
     text-align: center;
-    clear: both;    
     
 
 }
@@ -88,7 +92,82 @@ p{
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+/* CONTACTS STARTS HERE*/ 
+
+input[type=text], select {
+    width: 98%;
+    padding: 9px 8px;
     
+}
+
+input[type=email], select {
+    width: 98%;
+    padding: 9px 8px;
+    
+}
+
+input[type=submit], select {
+    width: 20%;
+    padding: 9px 8px;
+    background-color: #4aaaa5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.submit {
+    color: #4aaaa5;
+    
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-weight: bold;
+}
+/* PORTFOLIO STARTS HERE*/
+
+.container3{
+    border-style: solid;
+    border-block-start-width: 1px;
+    border-color: #dddddd;
+    padding: 30px;
+    margin: auto;
+    width: 650px;
+    height: 800px;
+    background-color: white;
+    margin-left: 300px;
+    margin-bottom: 100px
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+}
+
+div.gallery:hover {
+    border: 2px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 20px;
+    text-align: center;
+    clear: both;
 }
 
 /*
@@ -108,3 +187,34 @@ p{
 
      */
 
+/*
+#headerBg {
+    background-color: #ffffff;
+    width: 100%;
+    border-style: solid;
+    border-bottom: solid;
+    border-color: #cccccc;
+    height: 90px;
+    margin-bottom: 3%; 
+}   
+
+.headerMain {
+    width: 960px;
+}
+
+#headerInner {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 20px;
+        width: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        
+    }  
+
+.about-portfolio-contact {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+    
+        }
+ 
+    */
